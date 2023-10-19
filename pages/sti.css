@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "beautiful";
+    src: url("fonts/Beauty.otf") format("opentype");
+  }
+  @font-face {
+    font-family: "girlfriend";
+    src: url("fonts/Filxgirl.TTF") format("truetype");
+  }
+  @font-face {
+    font-family: "birthday";
+    src: url("fonts/KGChasingCars.ttf") format("truetype");
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1 0 auto;
+    background: black url("imgs/luzes.jpg") no-repeat center center/cover fixed;
+    font-family: "beautiful";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    background-color: black;
+    font-size: 3rem;
+    font-family: "birthday";
+    color: #761a65;
+  }
+  
+  .presentMode {
+    width: 75%;
+    height: 50vh;
+    background: black url("imgs/sky-photo.jpg") no-repeat center center/cover;
+    padding: 0.5rem;
+    border: 0.1rem solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .surpriseMode {
+    width: 85%;
+    margin: 2rem 0;
+    background: black url("imgs/ti01.png") no-repeat center center/cover fixed;
+    padding: 0.5rem;
+    border: 0.1rem solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .shadowBox {
+    background-color: rgba(0, 0, 0, 0.322);
+    color: white;
+    padding: 0.1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  h2 {
+    font-size: 1.7rem;
+    font-family: "beautiful";
+  }
+  
+  h3 {
+    font-size: 2rem;
+  }
+  
+  #present {
+    width: 3rem;
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+  }
+  
+  .open-menssage {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.342);
+  }
+  
+  #paragContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .parag {
+    font-size: 1.3rem;
+    font-family: cursive, Arial, Helvetica, sans-serif;
+    line-height: 1.4rem;
+  }
+  
+  footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+  }
+  
+  @media (max-width: 387px) {
+    * {
+      font-size: 17px;
+    }
+    .parag {
+      font-size: 1.3rem;
+      line-height: 1.4rem;
+    }
+  }
+  
